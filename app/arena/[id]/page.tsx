@@ -1,8 +1,8 @@
 'use client'
 import { useEffect, useState } from 'react'
-import { supabase } from '@/lib/supabase'
-import DeliberationSequence from '@/components/DeliberationSequence'
-import VerdictScreen from '@/components/VerdictScreen'
+import { supabase } from '../../lib/supabase'
+import DeliberationSequence from '../../components/DeliberationSequence'
+import VerdictScreen from '../../components/VerdictScreen'
 import { useParams } from 'next/navigation'
 
 type ArenaStatus = 'open' | 'active' | 'deliberating' | 'resolved'

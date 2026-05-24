@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { supabase } from '@/lib/supabase'
-import { evaluate } from '@/lib/arbitration'
-import { anchorVerdict } from '@/lib/hedera'
+import { supabase } from '../../lib/supabase'
+import { evaluate } from '../../lib/arbitration'
+import { anchorVerdict } from '../../lib/hedera'
 
 export async function POST(req: NextRequest) {
   const { arenaId } = await req.json()
