@@ -3,7 +3,10 @@
     "@hashgraph/sdk": "^2.81.0",
     "@supabase/supabase-js": "^2.106.1",
     "framer-motion": "^12.40.0",
-    "lucide-react": "^1.16.0"
+    "lucide-react": "^1.16.0",
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "scripts": {
     "dev": "next dev",
